@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Agenda de contatos</title>
+</head>
+<body>
+    <div id="container-error">
+        <span id="error-infor"><b></b></span>
+    </div>
+    <div class="container">
+        <header>
+            <img src="./image/logo.jfif" alt="Agenda dd contatos" title="Logo agenda de contato">
+            <h1>Agenda de contatos</h1>
+        </header>
+        <form id="formulario">
+            <label for="nome">Nome do contato*</label>
+            <input type="text" placeholder="Nome do contato" id="nome" required>
+            <label for="numero">Numero de contato*</label>
+            <input type="tel" placeholder="Numero de contato" id="numero" required>
+            <button type="submit">Adicionar</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome contato</th>
+                    <th>Numero contato</th>
+                </tr>
+                <tbody>
+                    
+                </tbody>
+            </thead>
+        </table>
+    </div>
+    <div id="contador">
+        <span id="msn">Nº contatos: <span id="cont"></span></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
